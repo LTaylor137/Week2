@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-address-card',
@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddressCardComponent implements OnInit {
 
+  @Input()
+  title: string = "Title";
+  @Input()
+  name: string = "Name";
+  @Input()
+  address: string = "Address";
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  onComponentClick(){
+
+    
+  }
+
 
 }

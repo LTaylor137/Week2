@@ -1,10 +1,28 @@
+<div style="background-color: antiquewhite;">
+    <h3>This is where the app.component.html starts.</h3>
+    <h3>it contains nothing but the below "apps"</h3>
 
-<h1>header1</h1>
 
-<h2>header2</h2>
+    <div style="background-color: rgb(215, 242, 250);">
+        <h3>This is where the app-counter starts.</h3>
+        <h1>
+            Total of all counters = {{total}}
+        </h1>
+        <app-counter (counted)="onCounted($event)"></app-counter>
+        <app-counter (counted)="onCounted($event)"></app-counter>
+    </div>
 
-<h3>header3</h3>
+    <div style="background-color: rgb(235, 222, 182);">
+        <h3>This is where the app-address-card starts.</h3>
 
-<p>paragraph</p>
+        <app-address-card title="Mr. " name="Lachlan Taylor" address="123/a Fleet Street, Sweetville"></app-address-card>
+        <app-address-card title="Ms. " name="O'Hehir" address="123/b Fleet Street, Sweetville"></app-address-card>
+        <app-address-card title="Mr. " name="Kermit .d Frog" address="123 Sesame Street, New York"></app-address-card>
 
-<small>small text</small>
+        <h3>This is where the app-address-card ends.</h3>
+    </div>
+
+
+
+    <h3>end of app.component.html</h3>
+</div>

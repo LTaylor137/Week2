@@ -1,1 +1,11 @@
-<p>address-card works!</p>
+<div (click)="onComponentClick()" class="card">
+
+    <div class="picture"><img src="src/app/address-card/monk.jpg" alt=""></div>
+    <div class="textcontainer">
+        <div class="namecontainer">
+            <div class="title"><h3>{{title}}</h3></div>
+            <div class="name"><h3>{{name}}</h3></div>
+        </div>
+        <div class="address"><h3>{{address}}</h3></div>
+
+    </div>
