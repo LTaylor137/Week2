@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AddressCardComponent implements OnInit {
 
   @Input()
+  image: string = "Image";
+  @Input()
   title: string = "Title";
   @Input()
   name: string = "Name";
