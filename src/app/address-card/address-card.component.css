@@ -6,7 +6,7 @@ line-height: 0px;
     display: flex;
     flex-direction: row;
     background-color: rgb(245, 245, 231);
-    border: solid 1px black;
+    border: solid 1px rgb(223, 10, 10);
     border-radius: 3px;
     padding: 20px;
     margin: 10px;
